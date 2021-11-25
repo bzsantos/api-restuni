@@ -35,7 +35,7 @@ public class CadLivro implements Serializable {
 	public void setId(Long id) {
 		this.id = id;
 	}
-
+	
 	public String getTitulo() {
 		return titulo;
 	}
@@ -51,7 +51,7 @@ public class CadLivro implements Serializable {
 	public void setAutor(String autor) {
 		this.autor = autor;
 	}
-
+   
 	public String getEditora() {
 		return editora;
 	}
