@@ -24,6 +24,9 @@ public class CadLivro implements Serializable {
 	private String editora;	
 	private String assunto;	
 	private String isbn;
+	private String resumo;
+	private String data_emprestimo;
+	private String data_devolucao;
 
 	public Long getId() {
 		return id;
@@ -71,6 +74,30 @@ public class CadLivro implements Serializable {
 
 	public void setIsbn(String isbn) {
 		this.isbn = isbn;
+	}
+
+	public String getResumo() {
+		return resumo;
+	}
+
+	public void setResumo(String resumo) {
+		this.resumo = resumo;
+	}
+
+	public String getData_emprestimo() {
+		return data_emprestimo;
+	}
+
+	public void setData_emprestimo(String data_emprestimo) {
+		this.data_emprestimo = data_emprestimo;
+	}
+
+	public String getData_devolucao() {
+		return data_devolucao;
+	}
+
+	public void setData_devolucao(String data_devolucao) {
+		this.data_devolucao = data_devolucao;
 	}
 	
 	
